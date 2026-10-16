@@ -1,6 +1,15 @@
+# data and generated files
 data/
-*.duckdb
 target/
 logs/
+dbt_packages/
+
+# python and OS
 __pycache__/
 .DS_Store
+.vscode/
+
+# secrets (never commit these)
+.env
+credentials/
+*.key
